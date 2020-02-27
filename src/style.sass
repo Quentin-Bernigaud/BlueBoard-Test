@@ -1,0 +1,24 @@
+@import 'reset'
+
+$font-stack: Helvetica, sans-serif
+$primary-color: #ff00de
+$grey-text-color: #555555
+
+::selection
+  background-color: #FF6D6D
+  color: #FFFFFF
+
+*
+  box-sizing: border-box
+
+body
+  font: 100% $font-stack
+  color: $grey-text-color
+  overflow-x: hidden
+
+@import './components/Header.sass'
+@import './components/Section2.sass'
+@import './components/Section3.sass'
+@import './components/Description.sass'
+@import './components/TryNow.sass'
+@import './components/Footer.sass'
